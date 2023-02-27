@@ -10,8 +10,8 @@ builder.Services.AddDbContext<StoreDbContext>(
     options =>
     {
         options.UseSqlServer(
-            builder.Configuration["ConnectionStrings:SportsStoreConnection"]
-            );
+            builder.Configuration.GetConnectionString("SportsStoreConnection")
+        );
     });
 
 builder.Services.AddScoped<IStoreRepository, EFStroreRepository>();
