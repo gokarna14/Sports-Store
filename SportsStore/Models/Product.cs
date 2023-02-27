@@ -2,7 +2,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace SportsStore.Models
 {
-    public class Products
+    public class Product
     {
         public long? ProductID { get; set; }
         public string Name { get; set; } = String.Empty;
