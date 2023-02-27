@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RenK2zLkyxxNuieVx//K93wN7rzZISrl2nl52aNmuXKTcrDx3/1CA6L103VogJm7UkHfyLf1x5BqG9Q6q2BCVg==",
+  "dgSpecHash": "6kBaCZlrW0VLNLbbZ+cCCstwt5a1XLvT2t0MiHf6vCA7DXk/8HE+XCzIxl6HttBXDQYHt/xGMUSavF+bw3JKOQ==",
   "success": true,
-  "projectFilePath": "/Users/prabasadhikari/Desktop/DotNet/Projects/SportsStore/SportsStore.csproj",
+  "projectFilePath": "/Users/prabasadhikari/Desktop/DotNet/Projects/SportsSln/SportsStore/SportsStore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

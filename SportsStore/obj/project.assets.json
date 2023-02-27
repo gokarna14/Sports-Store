@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/prabasadhikari/Desktop/DotNet/Projects/SportsStore/SportsStore.csproj",
+      "projectUniqueName": "/Users/prabasadhikari/Desktop/DotNet/Projects/SportsSln/SportsStore/SportsStore.csproj",
       "projectName": "SportsStore",
-      "projectPath": "/Users/prabasadhikari/Desktop/DotNet/Projects/SportsStore/SportsStore.csproj",
+      "projectPath": "/Users/prabasadhikari/Desktop/DotNet/Projects/SportsSln/SportsStore/SportsStore.csproj",
       "packagesPath": "/Users/prabasadhikari/.nuget/packages/",
-      "outputPath": "/Users/prabasadhikari/Desktop/DotNet/Projects/SportsStore/obj/",
+      "outputPath": "/Users/prabasadhikari/Desktop/DotNet/Projects/SportsSln/SportsStore/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/prabasadhikari/.nuget/NuGet/NuGet.Config"
