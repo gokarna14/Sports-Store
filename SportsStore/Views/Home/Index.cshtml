@@ -1,15 +1,11 @@
-@{
-    ViewData["Title"] = "Index";
-}
-@model IQueryable<Product>
-
-<h3>Welcome to the SportsStore</h3>
-
-@foreach (var p in Model)
+@model ProductsListViewModel
+@foreach (var p in Model?.Products ?? Enumerable.Empty<Product>())
 {
-    <div>
-        <h3>@p.Name</h3>
-        <p>@p.Description</p>
-        <h5>@p.Price.ToString("c")</h5>
-    </div>
+    <partial name="ProductSummary" model="p"></partial>
 }
+
+<div page-model="@Model?.PagingInfo" page-action="Index"
+    page-classes-enabled="true"
+    page-class="btn" page-class-normal="btn-outline-dark"
+    page-class-selected="btn-primary" class="btn-group pull-right m-1">
+</div>
